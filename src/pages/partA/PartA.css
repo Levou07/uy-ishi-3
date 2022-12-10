@@ -1,0 +1,162 @@
+.partA{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head__left button{
+    background-color: transparent;
+    border: none;
+}
+.head__right{
+    display: flex;
+    align-items: center;
+}
+
+.head__right h2{
+    margin-right: 25px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.head__right button{
+    margin-right: 15px;
+    border: none;
+    background-color: transparent;
+}
+button{
+    cursor: pointer;
+}
+
+/* head-down */
+
+.head__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.bottom__center .max{
+    width: 540px;
+    height: 600px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.bottom__left img{
+    height: 120px;
+}
+
+.nChild{
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.bottom__right{
+    margin-left: 180px;
+    margin-top: -20px;
+}
+.bottom__right h1{
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.bottom__right h2{
+    color: #A18A68;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.bottom__right h3{
+    color: #707070;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.bottom__right p{
+    color: #707070;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 30px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.minpl{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    background-color: #f2f2f2;
+    padding: 0 20px;
+    height: 53px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.minpl h4{
+    margin: 0 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.minpl button{
+    border: none;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.adding{
+    width: 280px;
+    height: 53px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.btRight__icons{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.leftbt{
+    margin-left: 40px;
+}
+.btRight__icons button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.bottom__right h5{
+    margin-top: 10px;
+}
+.h5{
+    margin-top: 60px;
+}
+
+.h5 h5{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h5 span{
+    color: #707070;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
